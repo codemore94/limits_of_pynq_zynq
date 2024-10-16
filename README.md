@@ -17,3 +17,4 @@ with the learning algorithm, annealing or similar algorithms are computation int
 rough approximation could be provided. 
 
 ![kuva](https://github.com/user-attachments/assets/0cc69ff5-eaf0-4e94-9956-bb5717f2fa51)
+![kuva](https://github.com/user-attachments/assets/4f7af88c-257a-4c89-990d-7c7623c82045)

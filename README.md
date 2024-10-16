@@ -15,3 +15,5 @@ In theory DNN needs not to be exactly Transformer, like CNN
 or even experimental like Restricted Boltzmann Machine. There the clear problem 
 with the learning algorithm, annealing or similar algorithms are computation intensive, maybe some 
 rough approximation could be provided. 
+
+![kuva](https://github.com/user-attachments/assets/0cc69ff5-eaf0-4e94-9956-bb5717f2fa51)

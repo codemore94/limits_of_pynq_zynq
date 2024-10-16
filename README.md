@@ -11,9 +11,9 @@ If succesfull there would be communication at some leve (Uart,Spi,...) between
 accelerator and other parts. The way how error correction could be implemented is still 
 in its way. Matrix multiplications are somewhat direct-way.
 
-In theory DNN needs not to be exactly Transformer, like CNN  
+In theory DNN needs not to be exactly Transformer, but CNN  
 or even experimental like Restricted Boltzmann Machine. There the clear problem 
-with the learning algorithm, annealing or similar algorithms are computation intensive, maybe some 
+with the learning algorithm while used RBM, annealing or similar algorithms are computation intensive, maybe some 
 rough approximation could be provided. 
 
 ![kuva](https://github.com/user-attachments/assets/0cc69ff5-eaf0-4e94-9956-bb5717f2fa51)

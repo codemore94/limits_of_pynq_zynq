@@ -1,0 +1,68 @@
+/dts-v1/;
+/ {
+    compatible = "riscv,generic-platform";    // Change to your specific platform if needed
+
+    // Main CPU
+    cpus {
+        #address-cells = <1>;
+        #size-cells = <0>;
+        cpu@0 {
+            compatible = "riscv";
+            device_type = "cpu";
+            reg = <0>;                       // CPU index
+            status = "okay";
+            riscv,isa = "rv32i";        // Instruction set (update according to your ISA)
+            mmu-type = "riscv,sv39";         // Memory management unit type
+            clock-frequency = <1000000000>;  // Clock frequency in Hz
+        };
+    };
+
+    // Memory
+    memory@80000000 {
+        device_type = "memory";
+        reg = <0x80000000 0x40000000>;       // Base address and size (update to your actual memory)
+    };
+
+    // AXI Bus
+    axi {
+        compatible = "simple-bus";
+        #address-cells = <2>;
+        #size-cells = <1>;
+        ranges;
+
+        // Accelerator Node
+        accelerator@a0000000 {
+            compatible = "vendor,accelerator";
+            reg = <0x0 0xa0000000 0x1000>;   // Accelerator base address and size
+            interrupt-parent = <&plic0>;     // Define parent interrupt controller
+            interrupts = <1>;                // Interrupt number (update to match actual hardware)
+            clocks = <&clk0>;                // Reference to the clock node
+            dma-coherent;
+            status = "okay";
+        };
+    };
+
+    // PLIC - Platform Level Interrupt Controller
+    plic0: interrupt-controller@c000000 {
+        compatible = "riscv,plic0";
+        reg = <0x0 0xc000000 0x400000>;
+        interrupt-controller;
+        #address-cells = <0>;
+        #interrupt-cells = <1>;
+        riscv,ndev = <32>;                   // Number of supported interrupts
+    };
+
+    // Timer - if needed
+    clint0: timer@2000000 {
+        compatible = "riscv,clint0";
+        reg = <0x0 0x2000000 0x10000>;
+        interrupts-extended = <&cpu0 3 &cpu0 7>;  // Update for multiple CPUs
+    };
+
+    // Clock
+    clk0: clock@0 {
+        compatible = "fixed-clock";
+        #clock-cells = <0>;
+        clock-frequency = <50000000>;        // Update according to your clock source
+    };
+};

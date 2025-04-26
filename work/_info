@@ -1,0 +1,264 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/MIKKO_USER/PROJEKTIT/LIMITS_OF_PYNQ_ZYNQ/limits_of_pynq_zynq/picorv32
+vaxi4_memory
+Z0 !s110 1745272833
+!i10b 1
+!s100 8MSgok9[OgK3f1In6^3ZC3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;3e4FEQSbMj6znn?WPGcV2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/MIKKO_USER/PROJEKTIT/LIMITS_OF_PYNQ_ZYNQ/limits_of_pynq_zynq
+Z4 w1744951632
+Z5 8/home/MIKKO_USER/PROJEKTIT/LIMITS_OF_PYNQ_ZYNQ/limits_of_pynq_zynq/picorv32/testbench.v
+Z6 F/home/MIKKO_USER/PROJEKTIT/LIMITS_OF_PYNQ_ZYNQ/limits_of_pynq_zynq/picorv32/testbench.v
+!i122 1
+L0 277 203
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1745272833.000000
+!s107 /home/MIKKO_USER/PROJEKTIT/LIMITS_OF_PYNQ_ZYNQ/limits_of_pynq_zynq/picorv32/testbench.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|/home/MIKKO_USER/PROJEKTIT/LIMITS_OF_PYNQ_ZYNQ/limits_of_pynq_zynq/picorv32/testbench.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vpicorv32
+R0
+!i10b 1
+!s100 ^l3^aDfI=^NmEz]TLFd>^3
+R1
+I0VOPgkgnUYzXX8PHDk:Ma2
+R2
+R3
+R4
+Z12 8/home/MIKKO_USER/PROJEKTIT/LIMITS_OF_PYNQ_ZYNQ/limits_of_pynq_zynq/picorv32/picorv32.v
+Z13 F/home/MIKKO_USER/PROJEKTIT/LIMITS_OF_PYNQ_ZYNQ/limits_of_pynq_zynq/picorv32/picorv32.v
+!i122 0
+L0 62 2106
+R7
+r1
+!s85 0
+31
+R8
+Z14 !s107 /home/MIKKO_USER/PROJEKTIT/LIMITS_OF_PYNQ_ZYNQ/limits_of_pynq_zynq/picorv32/picorv32.v|
+Z15 !s90 -reportprogress|300|-work|work|-stats=none|/home/MIKKO_USER/PROJEKTIT/LIMITS_OF_PYNQ_ZYNQ/limits_of_pynq_zynq/picorv32/picorv32.v|
+!i113 1
+R10
+R11
+vpicorv32_axi
+R0
+!i10b 1
+!s100 zBmmjn>83KZk43@U>zN2B1
+R1
+IUQ8k0:aEl6b^ljC3JmcU>0
+R2
+R3
+R4
+R12
+R13
+!i122 0
+L0 2517 208
+R7
+r1
+!s85 0
+31
+R8
+R14
+R15
+!i113 1
+R10
+R11
+vpicorv32_axi_adapter
+R0
+!i10b 1
+!s100 Q3FhT3DXh@BJ_I6U7mlhQ1
+R1
+IUHPADaoFT]>?VBbzEC8i;3
+R2
+R3
+R4
+R12
+R13
+!i122 0
+L0 2731 78
+R7
+r1
+!s85 0
+31
+R8
+R14
+R15
+!i113 1
+R10
+R11
+vpicorv32_pcpi_div
+R0
+!i10b 1
+!s100 WYJB<zjLFGmQCjCKjCEBm1
+R1
+Il5YOK3<7PFPK6Vg?nahHz0
+R2
+R3
+R4
+R12
+R13
+!i122 0
+L0 2420 91
+R7
+r1
+!s85 0
+31
+R8
+R14
+R15
+!i113 1
+R10
+R11
+vpicorv32_pcpi_fast_mul
+R0
+!i10b 1
+!s100 ]KQglOj0L;`bRgL^nFJ3n0
+R1
+I6?7>^^Dj6hK]6Y]1CH]GZ0
+R2
+R3
+R4
+R12
+R13
+!i122 0
+L0 2318 96
+R7
+r1
+!s85 0
+31
+R8
+R14
+R15
+!i113 1
+R10
+R11
+vpicorv32_pcpi_mul
+R0
+!i10b 1
+!s100 Z=[ZVVYk88IC_6^;M_WX<0
+R1
+IMma=_7S=Hkih8h07^Ih_g1
+R2
+R3
+R4
+R12
+R13
+!i122 0
+L0 2197 120
+R7
+r1
+!s85 0
+31
+R8
+R14
+R15
+!i113 1
+R10
+R11
+vpicorv32_regs
+R0
+!i10b 1
+!s100 _n2o^=D98``L37z_eTfhA1
+R1
+I:eMDdb`X4Pm=G=GERH^WR0
+R2
+R3
+R4
+R12
+R13
+!i122 0
+L0 2174 17
+R7
+r1
+!s85 0
+31
+R8
+R14
+R15
+!i113 1
+R10
+R11
+vpicorv32_wb
+R0
+!i10b 1
+!s100 OznJW9dEMSo>HQ@LY1<730
+R1
+IbZ;e2]W42_?YYle>G``A51
+R2
+R3
+R4
+R12
+R13
+!i122 0
+L0 2815 235
+R7
+r1
+!s85 0
+31
+R8
+R14
+R15
+!i113 1
+R10
+R11
+vpicorv32_wrapper
+R0
+!i10b 1
+!s100 NKJeE]Q77CMo]>BRNNhh03
+R1
+I6VcPR=g_ndJdo@?bU3=>W0
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 67 209
+R7
+r1
+!s85 0
+31
+R8
+Z16 !s107 /home/MIKKO_USER/PROJEKTIT/LIMITS_OF_PYNQ_ZYNQ/limits_of_pynq_zynq/picorv32/testbench.v|
+R9
+!i113 1
+R10
+R11
+vtestbench
+R0
+!i10b 1
+!s100 P><9OkSg3T;6[RVVMo_JA2
+R1
+ISAcIoALRABA8QTcN:2E9E2
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 11 54
+R7
+r1
+!s85 0
+31
+R8
+R16
+R9
+!i113 1
+R10
+R11

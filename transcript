@@ -1,0 +1,28 @@
+# reading modelsim.ini
+# Loading project picosoc_sim
+# reading modelsim.ini
+# reading /home/MIKKO_USER/imodelsim_intel/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project picosoc_test
+# Compile of picorv32.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench_picosoc
+# vsim work.testbench_picosoc 
+# Start time: 01:16:52 on Apr 22,2025
+# ** Error: (vsim-3170) Could not find 'testbench_picosoc'.
+#         Searched libraries:
+#             /home/MIKKO_USER/PROJEKTIT/TEST_RV/work
+# Error loading design
+
+# End time: 01:16:52 on Apr 22,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 5
+ls
+# picosoc_test.mpf
+# work
+cd work
+# reading /home/MIKKO_USER/imodelsim_intel/modelsim_ase/linuxaloem/../modelsim.ini
+cd ..
+ls
+# picosoc_test.cr.mti
+# picosoc_test.mpf
+# work

@@ -1,0 +1,26 @@
+/home/MIKKO_USER/PROJEKTIT/LIMITS_OF_PYNQ_ZYNQ/limits_of_pynq_zynq/picorv32/picorv32.v {1 {vlog -work work -stats=none /home/MIKKO_USER/PROJEKTIT/LIMITS_OF_PYNQ_ZYNQ/limits_of_pynq_zynq/picorv32/picorv32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module picorv32
+-- Compiling module picorv32_regs
+-- Compiling module picorv32_pcpi_mul
+-- Compiling module picorv32_pcpi_fast_mul
+-- Compiling module picorv32_pcpi_div
+-- Compiling module picorv32_axi
+-- Compiling module picorv32_axi_adapter
+-- Compiling module picorv32_wb
+
+Top level modules:
+	picorv32_regs
+	picorv32_axi
+	picorv32_wb
+
+} {} {}} /home/MIKKO_USER/PROJEKTIT/LIMITS_OF_PYNQ_ZYNQ/limits_of_pynq_zynq/picorv32/testbench.v {1 {vlog -work work -stats=none /home/MIKKO_USER/PROJEKTIT/LIMITS_OF_PYNQ_ZYNQ/limits_of_pynq_zynq/picorv32/testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+-- Compiling module picorv32_wrapper
+-- Compiling module axi4_memory
+
+Top level modules:
+	testbench
+
+} {} {}}
